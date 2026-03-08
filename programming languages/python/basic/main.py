@@ -222,3 +222,52 @@
 #     wtime += 2
 #     att += 1
 
+
+
+# def square(n):
+#     return(n ** 2)
+
+
+# result = square(5)
+
+# print(result)
+
+# def add(n,m):
+#     return n+m
+
+# print(add(4,5))
+
+
+# def muti(p1,p2):
+#     return p1 * p2
+
+# print(muti(5,6))
+
+
+# import math
+
+# def cstatus(readius):
+#     area =  math.pi * readius ** 2
+
+#     circum = 2 * math.pi * readius
+    
+#     return area,circum
+
+# a,c = cstatus(3)
+# print(a,c)
+
+# cude = lambda x: x ** 3
+
+# print(cude(3))
+
+
+# def sum_all(*args):
+#     print(args)
+#     for i in args:
+#         print(i * 2)
+#     return sum(args)
+
+# print(sum_all(1, 2, 3))
+# print(sum_all(1, 2, 3, 4, 5))
+# print(sum_all(1, 2, 3, 4, 5, 6, 7, 8))
+
