@@ -110,3 +110,115 @@
 
 # food = recommend_pet_food(species, age)
 # print("Recommended food:", food)
+
+
+# def sayhello ( name):
+#     print("hello", name)
+
+
+# sayhello(name="nihal")
+
+# numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]
+# positive_number_count = 0
+# for num in numbers:
+#     if num > 0:
+#         positive_number_count += 1
+# print("Final count of Positive number is: ", positive_number_count)
+
+
+# n = 10
+
+# sum_even = 0
+
+# for i in range(1,n+1):
+#     if i%2 == 0:
+#         sum_even += 1
+
+# print(sum_even)
+
+
+
+# n = 3
+
+# for i in range(1,11):
+#     if i==5:
+#         continue
+#     print(n, 'x', i, '=', n*i)
+
+
+# input_str = "Nihal"
+
+# reversed_str = ""
+
+# for char in input_str:
+#     reversed_str = char + reversed_str 
+
+# print(reversed_str)
+
+
+## second methond -
+# input_str = "Nihal"
+# print(input_str[::-1])
+
+
+# input_str = "NiihalNihal2"
+
+# for char in input_str:
+#     if input_str.count(char) == 1:
+#         print(char)
+#         break
+
+# n = 5
+
+# fact = 1
+
+# while n > 0:
+#     fact = fact * n
+#     n = n-1
+
+# print(fact)
+
+
+# while True:
+#     n = int(input("Enter Value b/w 1 & 10 "))
+#     if 1<= n <=10:
+#         print("thx")
+#         break
+#     else:
+#         print("error try again")
+
+# n=28
+# isprime = True
+
+# if n > 1:
+#     for i in range(2,n):
+#         if (n % i) == 0:
+#             isprime = False
+#             break
+
+# print(isprime)
+
+
+# items = ["apple", "banana", "orange", "apple", "mango"]
+
+# uitem = set()
+
+# for item in items:
+#     if item in uitem:
+#         print(item)
+#         break
+#     uitem.add(item)
+
+
+# import time
+
+# wtime = 1
+# mtry = 5
+# att = 0
+
+# while att < mtry:
+#     print("Attempt", att, +1, "wait time",wtime)
+#     time.sleep(wtime)
+#     wtime += 2
+#     att += 1
+
